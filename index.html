@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craft Pizza&Coffee у Миргороді — Головна</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-neutral-50 text-neutral-900 font-sans">
+
+    <!-- Навигация -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-amber-100 h-20 flex items-center">
+        <div class="max-w-6xl mx-auto px-6 w-full flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-black tracking-wider text-neutral-900 flex items-center gap-2">
+                <span class="text-amber-500">Craft</span> Pizza&Coffee
+            </a>
+            <nav class="hidden md:flex items-center gap-2">
+                <a href="index.html" class="bg-amber-500 text-white rounded-lg px-4 py-2 font-medium transition">Головна</a>
+                <a href="about.html" class="hover:bg-amber-50 text-neutral-700 rounded-lg px-4 py-2 font-medium transition">Про нас</a>
+                <a href="services.html" class="hover:bg-amber-50 text-neutral-700 rounded-lg px-4 py-2 font-medium transition">Меню</a>
+                <a href="gallery.html" class="hover:bg-amber-50 text-neutral-700 rounded-lg px-4 py-2 font-medium transition">Галерея</a>
+                <a href="booking.html" class="hover:bg-amber-50 text-neutral-700 rounded-lg px-4 py-2 font-medium transition">Бронювання</a>
+                <a href="contacts.html" class="hover:bg-amber-50 text-neutral-700 rounded-lg px-4 py-2 font-medium transition">Контакти</a>
+            </nav>
+            <a href="booking.html" class="md:hidden bg-amber-500 text-white px-4 py-2 rounded-lg text-sm font-bold">Бронь</a>
+        </div>
+    </header>
+
+    <!-- Хлебные крошки -->
+    <div class="bg-amber-50/50 py-3 border-b border-amber-100">
+        <div class="max-w-6xl mx-auto px-6 text-sm text-neutral-600">
+            Головна
+        </div>
+    </div>
+
+    <!-- Hero Секция -->
+    <section class="min-h-[80vh] relative bg-cover bg-center flex items-center justify-center" style="background-image: url('https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=1920');">
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="relative z-10 max-w-4xl mx-auto text-center px-6 text-white py-20">
+            <h1 class="text-4xl md:text-6xl font-black mb-6 leading-tight">Craft Pizza&Coffee у Миргороді</h1>
+            <p class="text-lg md:text-2xl mb-10 text-neutral-200 font-light">Свіжа піца, ароматна кава та улюблена атмосфера у самому центрі міста</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="services.html" class="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-xl text-lg font-semibold shadow-2xl transition">Переглянути меню</a>
+                <a href="booking.html" class="bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white px-8 py-4 rounded-xl text-lg font-semibold transition">Забронювати столик</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Избранные позиции -->
+    <section class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <span class="text-amber-600 font-bold tracking-widest uppercase text-sm">Смачно та швидко</span>
+            <h2 class="text-3xl md:text-4xl font-extrabold mt-2">Популярні страви</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden border border-neutral-100 flex flex-col">
+                <img src="https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&q=80&w=600" alt="Пепероні" class="h-48 w-full object-cover">
+                <div class="p-6 flex flex-col flex-grow">
+                    <span class="text-xs font-bold text-amber-600 uppercase tracking-wider mb-1">Піца</span>
+                    <h3 class="text-xl font-bold mb-2">Пепероні</h3>
+                    <p class="text-neutral-600 text-sm mb-4 flex-grow">Класична піца з пікантною салямі та сиром моцарела</p>
+                    <div class="flex justify-between items-center mt-auto">
+                        <span class="text-xl font-black text-amber-600">219₴</span>
+                        <a href="services.html" class="bg-neutral-900 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-amber-500 transition">Замовити</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden border border-neutral-100 flex flex-col">
+                <img src="https://images.unsplash.com/photo-1611143669185-af224c5e3252?auto=format&fit=crop&q=80&w=600" alt="Філадельфія рол" class="h-48 w-full object-cover">
+                <div class="p-6 flex flex-col flex-grow">
+                    <span class="text-xs font-bold text-amber-600 uppercase tracking-wider mb-1">Суші та роли</span>
+                    <h3 class="text-xl font-bold mb-2">Філадельфія рол</h3>
+                    <p class="text-neutral-600 text-sm mb-4 flex-grow">Ніжний рол з лососем, вершковим сиром та авокадо</p>
+                    <div class="flex justify-between items-center mt-auto">
+                        <span class="text-xl font-black text-amber-600">289₴</span>
+                        <a href="services.html" class="bg-neutral-900 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-amber-500 transition">Замовити</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden border border-neutral-100 flex flex-col">
+                <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&q=80&w=600" alt="Капучино" class="h-48 w-full object-cover">
+                <div class="p-6 flex flex-col flex-grow">
+                    <span class="text-xs font-bold text-amber-600 uppercase tracking-wider mb-1">Кава та напої</span>
+                    <h3 class="text-xl font-bold mb-2">Капучино</h3>
+                    <p class="text-neutral-600 text-sm mb-4 flex-grow">Класична кава з пишною молочною пінкою</p>
+                    <div class="flex justify-between items-center mt-auto">
+                        <span class="text-xl font-black text-amber-600">65₴</span>
+                        <a href="services.html" class="bg-neutral-900 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-amber-500 transition">Замовити</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Особенности / CTA -->
+    <section class="bg-amber-500 text-white py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-black mb-6">Завітайте до нас у Миргороді!</h2>
+            <p class="text-lg mb-8 text-amber-100">вулиця Незалежності, 7. Чекаємо на вас щодня з 08:00 до 22:00.</p>
+            <a href="contacts.html" class="inline-block bg-neutral-900 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-neutral-800 transition shadow-xl">Контакти та мапа</a>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="bg-neutral-900 text-neutral-300 py-12">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-white text-xl font-bold mb-4"><span class="text-amber-500">Craft</span> Pizza&Coffee</h3>
+                <p class="text-sm text-neutral-400">Свіжа піца, суші та ароматна кава у самому центрі Миргорода.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-4">Швидка навігація</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="index.html" class="hover:text-amber-500 transition">Головна</a></li>
+                    <li><a href="about.html" class="hover:text-amber-500 transition">Про нас</a></li>
+                    <li><a href="services.html" class="hover:text-amber-500 transition">Меню</a></li>
+                    <li><a href="gallery.html" class="hover:text-amber-500 transition">Галерея</a></li>
+                    <li><a href="booking.html" class="hover:text-amber-500 transition">Бронювання</a></li>
+                    <li><a href="contacts.html" class="hover:text-amber-500 transition">Контакти</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-4">Контакти</h4>
+                <p class="text-sm text-neutral-400 mb-2">вул. Незалежності, 7, Миргород</p>
+                <p class="text-sm text-neutral-400 mb-2">Телефон: +380673087775</p>
+                <p class="text-sm text-neutral-400">Email: info@craft-pizzacoffee.ua</p>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto px-6 mt-12 pt-6 border-t border-neutral-800 text-center text-xs text-neutral-500">
+            &copy; 2024 Craft Pizza&Coffee Миргород. Всі права захищені.
+        </div>
+    </footer>
+
+<script>
+    document.getElementById('mobile-toggle')?.addEventListener('click', function() {
+      document.getElementById('mobile-menu')?.classList.toggle('hidden');
+    });
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+      });
+    });
+  </script>
+</body>
+</html>
